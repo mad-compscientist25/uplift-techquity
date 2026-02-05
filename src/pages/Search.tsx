@@ -1,4 +1,3 @@
-import { Navigation } from "@/components/Navigation";
 import { BusinessCard } from "@/components/BusinessCard";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -82,10 +81,7 @@ const Search = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="max-w-7xl mx-auto space-y-8">
           <div>
             <h1 className="text-3xl font-bold text-foreground mb-2">Discover Local Businesses</h1>
